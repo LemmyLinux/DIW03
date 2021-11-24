@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'zombiefont';
+    src: url("ZOMBIE.TTF");
+}
+@font-face {
+    font-family: 'spongyfont';
+    src: url("Spongy.otf");
+}
+html{
+    background-color: rgb(192, 185, 185);
+    height: 100%;
+}
+#content
+{   
+    background-image: url("fondozombie.jpg");
+    background-color: #cccccc;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+#content2
+{
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("raven.jpg")
+}
+.flex_row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_col
+{
+    display: flex;
+    flex-direction: column;
+}
+.flex_grow
+{
+    display: flex;
+    flex-grow: 1;
+}
+
+.flex_item_centrado
+{
+    display: flex;
+    align-items: center;
+}
+.image_800x500
+{
+    width: 800px;
+    height: 300px;
+}
+#textoprincipal:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#boton
+{
+    background-color: red;
+    font-family: zombiefont;
+    font-size: 25px;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+}
+#textoprincipal
+{
+    font-family: zombiefont;
+    font-size: 60px;
+}
+#mapa
+{
+    position: fixed;
+    bottom: 0;
+}
+#helado
+{
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+}
+footer
+{
+    width: 1200px;
+    height: 150px;
+    background-color: #01b014;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+header
+{
+    color: black;
+    font-family: zombiefont;
+    font-size: 30px;
+    height: 150px;
+    justify-content: space-around;
+}
+#Refugio:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Primeros_auxilios:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Suministros:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Armamento:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Mapa_ciudad:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#menu
+{
+    color: black;
+    font-size: 20px;
+    width: 800px;
+    justify-content: space-between;
+}
+#valorar
+{
+    color: white;
+    background-color: black;
+    font-family: zombiefont;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+}
+#valorar:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#medio
+{
+    justify-content: space-around;
+}
+#Asador:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Asador
+{
+    width: 400px;
+    height: 85px;
+    justify-content: space-around;
+}
+#Cafeteria:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Cafeteria
+{
+    width: 400px;
+    height: 85px;
+    justify-content: space-around;
+}
+#Hamburguesas:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Hamburguesas
+{
+    width: 400px;
+    height: 85px;
+    justify-content: space-around;
+}
+#Restaurante:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Restaurante
+{
+    width: 400px;
+    height: 85px;
+    justify-content: space-around;
+}
+#Heladeria:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Heladeria
+{
+    width: 400px;
+    height: 85px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    justify-content: space-around;
+}
+#cuadro
+{
+    font-family: spongyfont;
+    width: 400px;
+    height: 500px;
+    justify-content: space-around;
+}
+#c
+{
+    font-size: 3.5mm;
+    color: black;
+    border-radius: 30px;
+    background-color: white;
+    padding: 33px;
+}
+#c:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#b:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#a
+{
+    margin: auto;
+}
+#b
+{
+    margin: auto;
+}
+#central
+{
+    justify-content: space-around;
+}
+#central1
+{
+    width: 250px;
+    height: 85px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    font-size: 12px;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-family: zombiefont;
+    font-size: 20px;
+}  
+#central1:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#tabla
+{
+    justify-content: space-around;
+    margin-left: 50px;
+}
+#uno:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#uno{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: zombiefont;
+}
+#dos:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#dos{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: zombiefont;
+}
+#tres:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#tres{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: zombiefont;
+}
+#cuatro:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#cuatro{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: zombiefont;
+}
+#cinco:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#cinco{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: zombiefont;
+}
+#seis:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#seis{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: zombiefont;
+}
+#Comida:hover{
+    text-shadow: 2px 2px 5px red;
+}
+#Login:hover{
+    text-shadow: 2px 2px 5px red;
+}
